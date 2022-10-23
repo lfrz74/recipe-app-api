@@ -1,5 +1,5 @@
 """
-Django command to wait for the db to be available.
+Django command to wait for the database to be available.
 """
 import time
 
@@ -13,7 +13,7 @@ class Command(BaseCommand):
     """Django command to wait for database."""
 
     def handle(self, *args, **options):
-        """Entrypoit for command."""
+        """Entrypoint for command."""
         self.stdout.write('Waiting for database...')
         db_up = False
         while db_up is False:
