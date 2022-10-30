@@ -1,10 +1,10 @@
 """
 Database models.
 """
-import email
-from email.policy import default
-from enum import unique
-from pyexpat import model
+# import email # noqa
+from email.policy import default # noqa
+from enum import unique # noqa
+from pyexpat import model # noqa
 from django.db import models
 from django.contrib.auth.models import (
     AbstractBaseUser,
